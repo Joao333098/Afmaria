@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* Alterado de height para min-height */
+  overflow-y: auto; /* Adiciona rolagem vertical */
   background-image: url('https://cdn.discordapp.com/icons/1068072819562381332/a_2a2f6817111badd773ff739fc757be48.gif?size=2048');
   background-size: cover;
   background-repeat: no-repeat;
